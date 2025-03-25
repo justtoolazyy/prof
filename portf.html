@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio </title>
+    <link rel="stylesheet" href="portf.css">
+    <script defer src="portf.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> Da Vinci's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">His Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="themeToggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Hi, I'm <span>NISHAN</span></h2>
+            <p class="hero-description">This is about Leonardo da Vinci.</p>
+        </div>
+         <a href="#projects" class="glow-button"> View Leo's Work </a>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h2>Biography</h2>
+            <img src="assets/leo.jpg" alt="Leonardo da Vinci" class="about-image">
+                <h3>Da Vinci</h3>
+                <p>Leonardo da Vinci (1452-1519) was an Italian polymath known for his contributions to art,
+                     science, engineering, anatomy, and many other fields. He is widely considered one of the greatest 
+                     geniuses in history.</p>
+        </div>
+    </section>
+   
+    <section id="projects">
+        <h2>His Works</h2>
+        <div class="project-card">
+            <img src="assets/The_Last_Supper.jpg" alt="Project">
+            <h3>The Last Supper</h3>
+            <P>The painting represents the scene of the Last Supper of Jesus with the Twelve Apostles, as it is told in 
+                the Gospel of John - specifically the moment after Jesus announces that one of his apostles will betray 
+                him.</P>
+            <img src="assets/The Renaissance.jpg">
+            <h3>Mona Lisa</h3>
+            <p>The Mona Lisa is a half-length portrait painting by the Italian artist Leonardo da Vinci. Considered an
+                 archetypal masterpiece of the Italian Renaissance, it has been described as "the best known, the most 
+                 visited, the most written about, the most sung about, and the most parodied work of art in the world."</p>
+            <img src="assets/design-for-a-helicopter.jpg">
+            <h3>A Helicopter</h3>
+            <p>'Design for a helicopter' was created in c.1500 by Leonardo da Vinci in High Renaissance style.</p>
+            <img src="assets/design-for-an-enormous-crossbow.jpg">
+            <h3>Enormous crossbow</h3>
+            <p>'Design for a Giant Crossbow' was created in 1482 by Leonardo da Vinci in Early Renaissance style.</p>
+            <img src="assets/images.webp">
+            <h3>Vitruvian Human</h3>
+            <p>The "Vitruvian Man," a famous drawing by Leonardo da Vinci, depicts a nude male figure in two superimposed 
+                positions, inscribed within a circle and a square, illustrating the ideal human proportions based on the 
+                writings of the ancient Roman architect Vitruvius.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="your name" required>
+            <input type="email" placeholder="your email" required>
+            <textarea placeholder="your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p> Copyright 2025 NISHAN | Designed without sleeping.</p>
+    </footer>
+</body>
+</html>
